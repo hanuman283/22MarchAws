@@ -33,7 +33,7 @@ namespace _22MarchAws.Controllers
         [HttpGet("names", Name = "GetMyNames")]
         public ActionResult<List<string>> GetNames()
         {
-            var names = new List<string> { "Shiv", "Shivay", "Shailu" };
+            var names = new List<string> { "Shiv", "Shivay", "Shailu","Shekhar" };
             return Ok(names);
         }
     }
